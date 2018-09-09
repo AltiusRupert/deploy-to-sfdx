@@ -1,7 +1,7 @@
 {
-  "name": "Deploy to Salesforce DX",
+  "name": "ALS Deploy to Salesforce DX",
   "description": "An application that will deploy an SFDX project from a public Github repo",
-  "repository": "https://github.com/wadewegner/deploy-to-sfdx",
+  "repository": "https://github.com/AltiusRupert/deploy-to-sfdx",
   "logo": "",
   "keywords": ["deploy", "sfdx", "salesforcedx"],
   "image": "",
@@ -11,15 +11,15 @@
   "env": {
     "CALLBACKURL": {
       "description": "The callback URL for your Connected App",
-      "value": ""
+      "value": "https://localhost:8443/oauth/callback"
     },
     "CONSUMERKEY": {
       "description": "The consumer key for your Connected App.",
-      "value": ""
+      "value": "3MVG99OxTyEMCQ3g0xwRHkTAQlPW1i6mw5Rji8oOUu7bVezF1wqlaKz16VPwX9Wue4jOyb5wNjMJy0MnK5nTm"
     },
     "CONSUMERSECRET": {
       "description": "The consumer secret for your Connected App.",
-      "value": ""
+      "value": "5207513568293130991"
     },
     "STARTINGDIRECTORY": {
       "description": "The base directory for the CLI",
