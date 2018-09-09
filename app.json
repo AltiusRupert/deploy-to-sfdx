@@ -23,7 +23,7 @@
     },
     "STARTINGDIRECTORY": {
       "description": "The base directory for the CLI",
-      "value": ""
+      "value": "tmp/"
     }
   },
   "buildpacks": [{
